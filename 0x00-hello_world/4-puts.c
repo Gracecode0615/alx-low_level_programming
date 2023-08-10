@@ -1,6 +1,4 @@
-#!/bin/bash
 #include <stdio.h>
-
 /**
  *  *  main - This program uses put()
  *   *  Description - This program prints out a sentence to output
