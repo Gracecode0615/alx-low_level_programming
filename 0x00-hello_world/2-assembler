@@ -1,2 +1,18 @@
 #!/bin/bash
-gcc $CFILE -O cisfun
+
+# Get the C filename from the environment variable
+CFILE=$CFILE
+
+# Check if the C file exists
+if [ -f "$CFILE" ]; then
+	    # Extract the filename without the extension
+	        FILENAME=$(basename "$CFILE" .c)
+		    
+		    # Generate assembly code using GCC
+		        gcc -S "$CFILE" -o "$FILENAME.s"
+			    
+			    echo "Assembly code generated and saved as $FILENAME.s"
+		    else
+			        echo "Error: C file '$CFILE' not found.
+				
+fi
