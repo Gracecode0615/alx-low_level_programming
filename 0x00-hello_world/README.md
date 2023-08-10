@@ -1,1 +1,1 @@
-This my C readme
+my read me on C
