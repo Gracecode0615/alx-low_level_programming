@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 /**
  * main - This program loves all aphabets
  * Description - This program displays all alphabets
