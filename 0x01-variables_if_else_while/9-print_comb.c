@@ -2,8 +2,8 @@
 
 /**
  * main - This program prints combinations
- *   
- *   Return: 0
+ *
+ * Return: 0
  */
 
 int main(void)
