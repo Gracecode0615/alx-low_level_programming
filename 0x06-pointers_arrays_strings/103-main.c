@@ -19,8 +19,9 @@ int main(void)
 	if (res == 0)
 	{
 	printf("Error\n");
-
+	}
 	else
+	{
 	printf("%s + %s = %s\n", n, m, res);
 	}
 	n = "1234567890";
