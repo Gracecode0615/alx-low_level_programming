@@ -1,16 +1,19 @@
 #include "main.h"
-/**
- * _puts - check the code
- * @str: variable
- * Return: void.
- */
-void _puts(char *str)
-{
-	int i;
 
-	for (i = 0; *(str + i) != '\0'; i++)
-	{
-		_putchar(*(str + i));
-	}
-	_putchar('\n');
+/**
+ * _islower - dqzdqzdqzdqzd
+ * @c: Description of parameter x
+ *
+ * Description: ddzqdqzd
+ * section header: Section description)*
+ * Return: Description of the returned value
+ */
+int _islower(int c)
+{
+	if (c >= 65 && c <=  90)
+		return (0);
+	else if (c >= 97 && c <= 122)
+		return (1);
+	else
+		return (0);
 }
